@@ -24,4 +24,6 @@ const slise = createSlice({
 
 export const { addContact, deleteContact } = slise.actions;
 
+export const selectContacts = (state) => state.contacts.items;
+
 export default slise.reducer;
